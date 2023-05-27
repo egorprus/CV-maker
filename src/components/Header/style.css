@@ -1,0 +1,19 @@
+.header-wrapper {
+    background-color: bisque;
+}
+.navigation__list {
+    display: flex
+}
+.navigation__link a {
+    display: inline-block;
+    text-decoration: none;
+    color: brown;
+    padding: 10px 20px;
+}
+.navigation__link:hover {
+    outline: 1px solid #233223;
+    border: none;
+}
+.navigation__link + .navigation__link {
+    border-left: 1px solid #233223;
+}

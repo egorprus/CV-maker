@@ -1,0 +1,19 @@
+.footer-wrapper {
+    background-color: bisque;
+}
+.social__list {
+    display: flex
+}
+.social__link a {
+    display: inline-block;
+    text-decoration: none;
+    color: brown;
+    padding: 10px 20px;
+}
+.social__link:hover {
+    outline: 1px solid #233223;
+    border: none;
+}
+.social__link + .social__link {
+    border-left: 1px solid #233223;
+}

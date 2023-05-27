@@ -1,0 +1,119 @@
+.article {
+    display: flex;
+}
+.article + .article {
+    margin-top: 40px;
+}
+.article__item {
+    flex: 2;
+}
+.article__item + .article__item {
+    flex: 6;
+}
+.article__item--align-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.company_technology {
+    margin-top: 10px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.main_img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+.current_city {
+    color: grey;
+    margin-bottom: 5px;
+}
+.current_contact {
+    color: grey;
+    text-decoration: none;
+    transition: .3s all;
+}
+.current_contact:hover {
+    color: #000000;
+}
+.current_contact + .current_contact {
+    margin-left: 10px;
+}
+.main_title {
+    margin-top: 40px;
+}
+.main_decription {
+    margin-top: 20px;
+    line-height: 22px;
+}
+.category_name {
+    color: rgba(128,128, 128, 0.5)
+}
+.company + .company {
+    margin-top: 20px;
+}
+.article_date {
+    color: grey;
+    font-size: 16px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.article_description {
+    margin-top: 5px;
+}
+.responsibilities__list {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.responsibilities__item {
+    position: relative;
+}
+.responsibilities__item + .responsibilities__item {
+    margin-top: 5px;
+}
+.responsibilities__item::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    left: -10px;
+    top: 6px;
+}
+.education__item + .education__item {
+    margin-top: 20px;
+}
+.education__list .article_date {
+    font-weight: 400;
+    margin-left: 10px;
+}
+.project_title {
+    margin-top: 20px;
+    font-weight: 600;
+}
+.project_text {
+    padding-left: 15px;
+    position: relative;
+    margin-top: 8px;
+}
+.project_text::before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    display: inline-block;
+    border: 2px solid #000000;
+    border-radius: 50%;   
+}
+.languages {
+    margin-top: 50px;
+}
+.languages_item {
+    margin-top: 10px;
+}
+.languages_item strong {
+    display: inline-block;
+    min-width: 100px;
+}
